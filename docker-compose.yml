@@ -1,0 +1,18 @@
+services:
+  app:
+    build: .
+    container_name: fastapi_chat
+    ports:
+      - "8000:8000"  
+    environment:
+      - REDIS_URL=${REDIS_URL}   
+    depends_on:
+      - redis
+    volumes:
+      - .:/app  
+
+  redis:
+    image: redis:alpine
+    container_name: redis_chat
+    ports:
+      - "6379:6379"

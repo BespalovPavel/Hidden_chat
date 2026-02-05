@@ -1,0 +1,114 @@
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & Editors
+.vscode/
+!.vscode/settings.json.example
+!.vscode/tasks.json.example
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.cache
+nosetests.xml
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+
+# FastAPI Specific
+*.pid
+instance/
+.webassets-cache
+
+# Frontend Assets
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.yarn/cache/
+.yarn/unplugged/
+.pnp.*
+
+# SASS/SCSS
+.sass-cache/
+*.sass-cache/
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+
+# Docker
+# .dockerignore
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
